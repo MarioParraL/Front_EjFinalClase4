@@ -12,12 +12,16 @@ type Character = {
 type Data = { // Lo que paso a page
   id: number;
   name: string;
+  air_date: string;
+  episode: string;
   characters: Character[];
 };
 
 type EpisodeAPI = {
   id: number;
   name: string;
+  air_date: string;
+  episode: string;
   characters: string[];
 };
 
